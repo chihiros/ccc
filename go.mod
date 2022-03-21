@@ -1,4 +1,4 @@
-module github.com/chihiros/change-character-code
+module github.com/chihiros/ccc
 
 go 1.18
 
