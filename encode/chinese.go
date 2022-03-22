@@ -16,6 +16,7 @@ func (e *Encode) GB18030() ([]byte, error) {
 }
 
 // Legacy multi-byte Chinese (traditional) encodings
+// Charactor code: Big5
 func (e *Encode) Big5() ([]byte, error) {
 	b, err := encodeReader(strings.NewReader(e.Target), "big5")
 	return b, err
