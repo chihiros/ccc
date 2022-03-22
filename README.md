@@ -5,7 +5,7 @@ It is a library for changing the character code of the string.
 ### The Encoding
 | Character Code | Supported | Sample |
 | --- | :---: | --- |
-| UTF-8 |  |  |
+| UTF-8 | ✅ | ccc.Encode(string).UTF8 |
 
 ### Legacy single-byte encodings
 | Character Code | Supported | Sample |
