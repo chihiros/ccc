@@ -53,9 +53,9 @@ It is a library for changing the character code of the string.
 ### Legacy multi-byte Japanese encodings
 | Character Code | Supported | Sample |
 | --- | :---: | --- |
-| EUC-JP |  |  |
-| ISO-2022-JP |  |  |
-| Shift_JIS | ✅ | ccc.Encode(string).ShiftJIS |
+| EUC-JP | ccc.Encode(string).EUC_JP() | ✅ |
+| ISO-2022-JP | ccc.Encode(string).ISO_2022_JP() | ✅ |
+| Shift_JIS | ✅ | ccc.Encode(string).ShiftJIS() |
 
 ### Legacy multi-byte Korean encodings
 | Character Code | Supported | Sample |
