@@ -60,7 +60,7 @@ It is a library for changing the character code of the string.
 ### Legacy multi-byte Korean encodings
 | Character Code | Supported | Sample |
 | --- | :---: | --- |
-| EUC-KR |  |  |
+| EUC-KR | ✅ | ccc.Encode(string).EUC_KR() |
 
 ### Legacy miscellaneous encodings
 | Character Code | Supported | Sample |
