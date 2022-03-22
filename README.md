@@ -1,7 +1,7 @@
 # ccc (change-character-code)
 It is a library for changing the character code of the string.
 
-## Support Character Code
+## [Support Character Code](https://encoding.spec.whatwg.org/#names-and-labels)
 ### The Encoding
 | Character Code | Supported | Sample |
 | --- | :---: | --- |
@@ -42,13 +42,13 @@ It is a library for changing the character code of the string.
 ### Legacy multi-byte Chinese (simplified) encodings
 | Character Code | Supported | Sample |
 | --- | :---: | --- |
-| GBK |  |  |
-| gb18030 |  |  |
+| GBK | ✅ | ccc.Encode(string).GBK() |
+| gb18030 | ✅ | ccc.Encode(string).GB18030() |
 
 ### Legacy multi-byte Chinese (traditional) encodings
 | Character Code | Supported | Sample |
 | --- | :---: | --- |
-| Big5 |  |  |
+| Big5 | ✅ | ccc.Encode(string).Big5() |
 
 ### Legacy multi-byte Japanese encodings
 | Character Code | Supported | Sample |
